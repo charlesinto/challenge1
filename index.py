@@ -21,8 +21,8 @@ def create_connection():
 
 def get_server_instance():
     jenkins_url = 'http://jenkins_host:8080'
-    server = Jenkins(jenkins_url, username='foouser',
-                     password='foopassword')
+    server = Jenkins(jenkins_url, username='charlesinto',
+                     password='july@3450')
     return server
 
 # get the details of the instance server jobs and insert into jobs table in sqlite database
